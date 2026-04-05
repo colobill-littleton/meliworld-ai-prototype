@@ -27,4 +27,4 @@ This repository focuses on interaction system design and behavior modeling rathe
 
 ## System Architecture
 
-![Architecture](Emotion-Aware.jpg)
+![Architecture](aware-conversational-ai-response-architecture.jpg)
