@@ -24,3 +24,7 @@ This prototype was built to validate interaction logic, conversational flows, an
 
 ## Notes
 This repository focuses on interaction system design and behavior modeling rather than production-scale engineering.
+
+## System Architecture
+
+![Architecture](your-image-file-name.png)
