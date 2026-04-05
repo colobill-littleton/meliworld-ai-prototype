@@ -27,4 +27,4 @@ This repository focuses on interaction system design and behavior modeling rathe
 
 ## System Architecture
 
-![Architecture](your-image-file-name.png)
+![Architecture](Emotion-Aware.jpg)
