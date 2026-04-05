@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MeliWorld AI Prototype</title>
+  <style>
+    body { font-family: Arial; padding: 40px; background: #f5f7fa; }
+    .box { background: white; padding: 20px; border-radius: 10px; max-width: 600px; }
+    h1 { color: #333; }
+    button { padding: 10px 15px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h1>MeliWorld AI Prototype</h1>
+  <p>This is a simplified interaction demo representing behavior-driven conversational AI logic.</p>
+
+  <input id="userInput" placeholder="Say something..." style="width:100%; padding:10px;" />
+  <button onclick="respond()">Send</button>
+
+  <p id="response"></p>
+</div>
+
+<script>
+function respond() {
+  const input = document.getElementById("userInput").value.toLowerCase();
+  let output = "";
+
+  if (input.includes("sad")) {
+    output = "I'm here with you. Do you want to talk about what’s making you feel sad?";
+  } else if (input.includes("happy")) {
+    output = "That’s wonderful! Tell me more about what made you happy!";
+  } else {
+    output = "I’m listening. Can you tell me more?";
+  }
+
+  document.getElementById("response").innerText = output;
+}
+</script>
+
+</body>
+</html>
