@@ -1,29 +1,30 @@
-# meliworld-ai-prototype
-Behavior-driven conversational AI system demonstrating agentic interaction design, routing logic, and safety-constrained AI responses.
-
 # MeliWorld – Conversational AI Interaction Prototype
 
-This project demonstrates a behavior-driven conversational AI system designed using hybrid deterministic and generative interaction models.
+Lightweight prototype demonstrating a behavior-driven conversational AI system built using hybrid deterministic and generative interaction logic.
 
-## Overview
-MeliWorld is an emotionally intelligent AI companion that adapts responses based on user intent, emotional signals, and safety constraints.
+## What This Demonstrates
+- Conversational routing and branching logic  
+- Emotional signal detection and response adaptation  
+- Safety-constrained AI interaction design  
+- Multi-step dialogue orchestration (agentic behavior)
 
-## Key Concepts
-- Conversational routing and branching logic
-- Emotional signal detection
-- Multi-step dialogue orchestration
-- Safety-constrained AI interaction design
-- Hybrid deterministic + LLM behavior system
+## System Architecture
+
+This diagram illustrates a simplified interaction model: user input → emotion detection → safety filtering → conversational routing → adaptive response generation.
+
+![Architecture](emotion-aware-conversational-ai-architecture.jpg)
 
 ## Purpose
-This prototype was built to validate interaction logic, conversational flows, and AI behavior prior to production implementation.
+
+This project was created to validate AI interaction logic and behavior design prior to production implementation.  
+It focuses on system behavior, not UI polish or production-scale engineering.
 
 ## Tech
-- HTML / CSS / JavaScript
-- LLM integration (conceptual / simulated)
+- HTML / CSS / JavaScript  
+- LLM interaction concepts (simulated)
 
-## Notes
-This repository focuses on interaction system design and behavior modeling rather than production-scale engineering.
+
+*This repository is intended as a system design artifact demonstrating how AI behavior can be structured, constrained, and made predictable within real-world interaction flows.*
 
 ## System Architecture
 
